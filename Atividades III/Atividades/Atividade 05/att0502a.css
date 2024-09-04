@@ -1,0 +1,35 @@
+#containerg
+{
+    position: relative;
+    width: 1800px;
+    height: 1230px;
+    margin: 0 auto;
+}
+
+#topo
+{
+    width: 1800px;
+    height: 130px;
+    background-color: green;
+}
+
+#menu
+{
+    width: 1800px;
+    height: 50px;
+    background-color: blue;
+}
+
+#conteudo
+{
+    width: 1800px;
+    height: 600px;
+    background-color: lightblue;
+}
+
+#rodape
+{
+    width: 1800px;
+    height: 50px;
+    background-color: green;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: yellow;
+    background-image: url(Captura\ de\ tela\ 2024-08-03\ 144621.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+#typeone {
+    font-family: arial;
+    color: red;
+}
+
+#typetwo {
+    font-family: Times;
+    font-size: 22;
+    color: green;
+}
+
+#typethree {
+    font-family: comic Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: blue;
+    font-style: italic;
+}
+
+#typefour {
+    color: yellow;
+    font-style: bold;
+    font-size: 14;
+    font-family: Verdana;
+}

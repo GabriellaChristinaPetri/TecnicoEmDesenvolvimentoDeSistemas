@@ -1,0 +1,61 @@
+#container
+{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.img
+{
+    width: 250px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+#con1
+{
+    width: 300px;
+    height: 500px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#con2
+{
+    width: 300px;
+    height: 500px;
+    left: 300px;
+    top: 0px;
+    position: absolute;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#con3
+{
+    width: 300px;
+    height: 500px;
+    left: 600px;
+    top: 0px;
+    position: absolute;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.a
+{
+    color: blue;
+    font-size: large;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.b
+{
+    font-size: medium;
+    text-align: left;
+    margin-left: 10px;
+}
