@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 06 d</title>
+</head>
+<body>
+    <form action="/action_page.php" method="get">
+        <table>
+            <tr>
+                <td><label for="nome">Nome</label></td>
+                <td><input type="text" id="nome" name="nome"></td>
+            </tr>
+
+            <tr>
+                <td><label for="nomecomp">Nome completo</label></td>
+                <td><input type="text" id="nomecomp" name="nomecomp"></td>
+            </tr>
+
+            <tr>
+                <td><label for="cpf">CPF</label></td>
+                <td><input type="cpf" id="cpf" name="cpf"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="website">Website</label></td>
+                <td><input type="text" id="website" name="website"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ende">Endereço</label></td>
+                <td><input type="text" id="ende" name="ende"></td>
+            </tr>
+
+            <tr>
+                <td><label for="bairro">Bairro</label></td>
+                <td><input type="text" id="bairro" name="bairro"></td>
+                <td><label for="city">Cidade</label></td>
+                <td><input type="text" id="city" name="city"></td>
+            </tr>
+
+            <tr>
+                <td><label for="cep">Cep</label></td>
+                <td><input type="number" id="cep" name="cep"></td>
+                <td><p>UF</p></td>
+                <td>
+                    <select name="uf" id="uf" form="uf">
+                        <option value="pr">Paraná</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="tel">Telefone</label></td>
+                <td><input type="tel" id="tel" name="tel"></td>
+                <td><label for="fax">Fax</label></td>
+                <td><input type="number" id="fax" name="fax"></td>
+            </tr>
+
+            <tr>
+                <td><label for="bday">Data de Nascimento</label></td>
+                <td><input type="date" id="bday" name="bday"></td>
+                <td><p>Sexo</p></td>
+                <td>
+                    <input type="radio" id="f" name="f">
+                    <label for="f">F</label>
+                    <input type="radio" id="m" name="m">
+                    <label for="m">M</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="cel">Celular</label></td>
+                <td><input type="tel" id="cel" name="cel"></td>
+                <td><p>Estado Civil</p></td>
+                <td>
+                    <select>
+                        <option value="solt">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="viuvo">Viúvo</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="login">Login</label></td>
+                <td><input type="text" id="login" name="login"></td>
+                <td><label for="senha">Senha</label></td>
+                <td><input type="password" id="senha" name="senha"></td>
+            </tr>
+        </table>
+        <p>Deseja receber informações sobre os seguintes assuntos abaixo?</p><br>
+        <input type="checkbox" id="tec" name="tec">
+        <label for="tec">Tecnologia</label>
+        <input type="checkbox" id="esp" name="esp">
+        <label for="esp">Esportes</label>
+        <input type="checkbox" id="aut" name="aut">
+        <label for="aut">Automóveis</label>
+        <input type="checkbox" id="cul" name="cul">
+        <label for="cul">Culinária</label>
+        <input type="checkbox" id="pol" name="pol">
+        <label for="pol">Política</label>
+        <input type="checkbox" id="pcl" name="pcl">
+        <label for="pcl">Policial</label>
+        <input type="checkbox" id="tem" name="tem">
+        <label for="tem">Tempo</label>
+        <input type="checkbox" id="clr" name="clr">
+        <label for="clr"> Cultura</label>
+        <input type="checkbox" id="eco" name="eco">
+        <label for="eco">Economia</label>
+        <input type="checkbox" id="jog" name="jog">
+        <label for="edu">Educação</label>
+        <input type="checkbox" id="via" name="via">
+        <label for="via">Viagem</label>
+        <input type="checkbox" id="emp" name="emp">
+        <label for="emp">Empregos</label>
+        <input type="checkbox" id="mee" name="mee">
+        <label for="mee">Moda E Estilo</label><br>
+        <input type="checkbox" id="aceitacao" name="aceitacao">
+        <label for="aceitacao">Li as regras de cadastro e autorizo a criação do usuário</label>
+
+        <input type="button" value="Confirmar" onclick="algo()">
+        <input type="button" value="Retornar" onclick="algo()">
+
+    </form>
+    
+</body>
+</html>

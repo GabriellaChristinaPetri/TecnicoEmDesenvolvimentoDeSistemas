@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 06 b</title>
+</head>
+<body>
+    <form action="/action_page.php" method="get">
+        <table>
+            <tr>
+                <td><label for="login">Login</label><br></td>
+                <td><input type="text" id="login" name="login"><br><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="senha">Senha</label><br></td>
+                <td><input type="password" id="senha" name="senha"><br><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="status">Status</label></td>
+                <td>
+                    <select name="status" id="status" form="forms">
+                        <option value="inativo">Inativo</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="indet">Indeterminado</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><p>Tipo</p></td>
+                <td>
+                    <input type="radio" id="tecnico" name="tecnico">
+                    <label for="tecnico">Técnico</label>
+                    <input type="radio" id="professor" name="professor">
+                    <label for="professor">Professor</label>
+                    <input type="radio" id="aluno" name="aluno">
+                    <label for="aluno">Aluno</label><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="data">Data Criação</label><br></td>
+                <td><input type="date" id="data" name="data"><br><br></td>
+            </tr>
+
+            <tr>
+                <td><p>perfil</p></td>
+                <td>
+                    <input type="radio" id="convidado" name="convidado">
+                    <label for="convidado">Convidado</label>
+                    <input type="radio" id="adm" name="adm">
+                    <label for="adm">Administrador</label><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="obs">Observações</label><br></td>
+                <td><textarea></textarea><br><br></td>
+            </tr>
+
+            <tr>
+                <td><p>Módulos</p></td>
+                <td>
+                    <input type="checkbox" id="compras" name="compras">
+                    <label for="compras">Compras</label>
+                    <input type="checkbox" id="biblioteca" name="biblioteca">
+                    <label for="biblioteca">Biblioteca</label>
+                    <input type="checkbox" id="academico" name="academico">
+                    <label for="academico">acadêmico</label>
+                    <input type="checkbox" id="documentacao" name="documentacao">
+                    <label for="documentacao">Documentação</label>
+                    <input type="checkbox" id="rh" name="rh">
+                    <label for="rh">Recursos Humanos</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <input type="button" value="Cadastrar" onclick="algo()">
+        <input type="button" value="Excluir" onclick="algo()">
+    </form>
+    
+</body>
+</html>

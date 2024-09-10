@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    border: 4px solid green;
+    width: 900px;
+    height: 1000px;
+    background-color:rgba(241, 250, 241, 1);
+}
+
+.cadgeral
+{
+    border: 3px solid lightgreen;
+    width: 90%;
+    height: 700px;
+    left: 50%;
+    top: 350px;
+    margin: 0 auto;
+}
+
+.cadastro
+{
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    font-size: small;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+.dadospessoais
+{
+    position: relative;
+    top: 5%;
+    left: 2%;
+    border: 2px solid lightgreen;
+    font-size: small;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados
+{
+    position: absolute;
+    border: 1px solid green;
+    font-size: small;
+    background-color: #fff;
+    color: green;
+    width: 100px;
+    top: 1%;
+}
+
+.dadospessoais label
+{
+    position: relative;
+    top: 40px;
+}
+
+.dadospessoais input
+{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 150px;
+}
+
+.dadospessoais select
+{
+    position: relative;
+    width: 150px;
+    top: 40px;
+}
+
+select
+{
+    background-color: #FFF;
+    margin: 1px solid #000;
+}
+
+.loc
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    border: 2px solid lightgreen;
+
+    position: relative;
+    left: 55%;
+    top: -125px;
+}
+
+.loc h2
+{
+    font-size: small;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    width: 120px;
+    position: absolute;
+    top: -5px;
+    left: 4%;
+}
+
+.loc input
+{
+    position: relative;
+    width: 300px;
+    top: 8%;
+}
+
+.loc label
+{
+    position: relative;
+    top: 8%;
+}
+
+.idade
+{
+    position: relative;
+    border: 2px solid lightgreen;
+    width: 700px;
+    height: 150px;
+    left: 5%;
+    top: -90px;
+}
+
+.idade h2
+{
+    position: absolute;
+    font-size: small;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    width: 120px;
+    top: -4%;
+    left: 3%;
+}
+
+.idade label
+{
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.idade input
+{
+    position: relative;
+    left: 50%;
+    top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.esporte
+{
+    position: relative;
+    border: 2px solid lightgreen;
+    width: 700px;
+    height: 300px;
+    left: 5%;
+    top: -6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.esporte h2
+{
+    position: absolute;
+    font-size: small;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    width: 150px;
+    top: -3%;
+}
+
+.esporte label
+{
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
+
+.esporte input
+{
+    position: relative;
+    left: -40%;
+    top: 16%;
+}
+
+.comment
+{
+    position: relative;
+    top: 10%;
+    width: 800px;
+    height: 200px;
+    border: 2px solid lightgreen;
+}
+
+.comment h2
+{
+    position: absolute;
+    top: -6%;
+    left: 1%;
+    font-size: small;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+.comment label
+{
+    position: relative;
+    top: -40%;
+    left: 5%;
+    font-size: small;
+    color: green;
+}
+
+textarea
+{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    top: 15%;
+    left: -1%;
+}
+
+.btn-env 
+{
+    position: absolute;
+    top: 95%;
+    left: 32%;
+}
+
+.btn-lim
+{
+    position: absolute;
+    top: 95%;
+    left: 35%;
+}
